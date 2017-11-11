@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.music">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".playList"
+            android:label="PlayList" />
+        <activity
+            android:name=".MusicSearch"
+            android:label="MusicSearch" />
+        <activity
+            android:name=".RandomMusic"
+            android:label="RandomMusic" />
+        <activity
+            android:name=".BuyTheMusic"
+            android:label="BuyTheMusic" />
+        <activity
+            android:name=".PlayTheSong"
+            android:label="Play the Song" />
+        <activity
+            android:name=".pop_music"
+            android:label="po_music" />
+        <activity
+            android:name=".Romance"
+            android:label="romance" />
+        <activity
+            android:name=".search_music"
+            android:label="search_music" />
+        <activity
+            android:name=".play_random_music"
+            android:label="play_andriod_music"></activity>
+    </application>
+
+</manifest>

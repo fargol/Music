@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.music.pop_music">
+
+    <TextView
+        android:id="@+id/pop_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#3498db "
+        android:text="The pop album user"
+        android:textAllCaps="true"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#3498db "
+        android:text="@string/pop"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/pop_sorry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#3498db "
+        android:text="@string/pop_music_sorry"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/pop_roar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3498db "
+        android:text="@string/pop_music_roar"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/pop_dark_hourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3498db "
+        android:text="@string/pop_music_darkHorse"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/pop_blank_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3498db "
+        android:text="Blank Space Taylor Swift"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/pop_let_me_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3498db "
+        android:text="Let Me Go hailee Steinfeld"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+</LinearLayout>

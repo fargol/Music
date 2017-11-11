@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.music.Romance">
+    <TextView
+        android:id="@+id/romance_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3498db "
+        android:text="the user' romantic music library"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/text_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#3498db "
+        android:text="@string/romance"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/romance_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3498db "
+        android:text="@string/Romance_Tyler"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/romance_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3498db "
+        android:text="@string/Romance_Houston"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/romance_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3498db "
+        android:text="@string/Romance_Cary"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/romance_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3498db "
+        android:text="@string/Romance_braxon"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

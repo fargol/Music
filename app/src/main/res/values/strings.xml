@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="MusicSearch">the users should search their favourite songs. When they like their music,they could buy them.</string>
+    <string name="PlayTheSong">Now Play The classic Song</string>
+    <string name="Romance">Now Play The romantic Song</string>
+    <string name="pop_music">Now Play The pop Song</string>
+    <string name="pop_music_sorry">sorry justin Bieber</string>
+    <string name="pop_music_roar">Roar Katy Perry</string>
+    <string name="pop_music_darkHorse">Dark Horse Katty Perry</string>
+    <string name="Romance_Tyler">Total Eclipse of the Heart Bonnie Tyler</string>
+    <string name="Romance_Houston">I Will Always Love You Whitney Houston</string>
+    <string name="Romance_Cary">Without You Mariah Carey </string>
+    <string name="Romance_braxon">Unbreak My Heart Toni Braxton </string>
+    <string name="search_music">In this screen the users could select their searching songs.</string>
+    <string name="BuyTheMusic"> through this screen the users could buy theie favorite songs.</string>
+    <string name="PlayTheSong_one">Now the users could listen to their favourite songs the play button should play the songs, the stop botton could stop the song, and the pause button could pause the song"</string>
+    <string name="romance">The users could select their favourite romantic musics by clicking on each music it plays!</string>
+    <string name="pop">The users could select their favourite pop musics by clicking on each music it plays!</string>
+    <string name="playList">playlist Screen.This screen shows the library of the users. By clicking any of the playList categories, the nowPlaying opens through an explicit intent and choose their favourite song which are listed </string>
+</resources>

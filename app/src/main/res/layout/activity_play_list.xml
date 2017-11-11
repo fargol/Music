@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.music.playList">
+
+    <TextView
+        android:id="@+id/textBox"
+        style="@style/CategoryStyleOfTextView"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/playList" />
+
+    <TextView
+        android:id="@+id/classic_music"
+        style="@style/CategoryStyle"
+        android:background="#FEBC92"
+        android:text="classicMusic" />
+
+    <TextView
+        android:id="@+id/pop_play"
+        style="@style/CategoryStyle"
+        android:background="#F5CC2B"
+        android:text="Pop" />
+
+    <TextView
+        android:id="@+id/random_music"
+        style="@style/CategoryStyle"
+        android:background="#FF5151"
+        android:text="RomanceMusic" />
+
+</LinearLayout>

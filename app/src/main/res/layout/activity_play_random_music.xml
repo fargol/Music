@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.music.play_random_music">
+
+    <TextView
+        android:id="@+id/play_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#3498db "
+        android:text="play the random music"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pause_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#3498db "
+        android:text="through this screen the user could chose their random music, and if they like it could buy their song"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/buy_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#3498db "
+        android:text="buy it"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+</LinearLayout>
